@@ -1,2 +1,2 @@
 # hacking-notes
-My notes about ahcking tools and general hacking knowledge
+My notes about hacking tools and general hacking knowledge
