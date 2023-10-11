@@ -1,17 +1,18 @@
 # Basic Commands
-Start metasploit console: `msfconsole` \
-You can use many normal linux commands like in a linux terminal: `ls, cat, clear, ...`  \
-Help: `help <command>` \
-Show command history: `history` \
-List modules and alike: `show` use `show -h` to see what can be showed \
-Show information about module: `info <module>`
-Search: `search <what you want>`
+`msfconsole` - Start metasploit console:  \
+`help <command>` - Help  \
+`history` - Show command history:  \
+`show` - List modules and alike. Use `show -h` to see what can be showed \
+`info <module>` - Show information about module  \
+`search <what you want>` - Search \
+
+You can use many normal linux commands like in a linux terminal: `ls, cat, clear, ...`
 
 ## Contexts:
-Entering a context: `use <context, e.g. exploit>`
-Exit context: `back`
-Show options: `show options`
-info about context: `info`
+`use <context, e.g. exploit>` - Entering a context  \
+`back` - Exit context:  \
+`show options` - Show options:  \
+`info` - Info about context:  \
 
 <details>
 <summary>
