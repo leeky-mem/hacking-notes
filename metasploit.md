@@ -4,11 +4,14 @@ You can use many normal linux commands like in a linux terminal: `ls, cat, clear
 Help: `help <command>` \
 Show command history: `history` \
 List modules and alike: `show` use `show -h` to see what can be showed \
-
+Show information about module: `info <module>`
+Search: `search <what you want>`
 
 ## Contexts:
 Entering a context: `use <context, e.g. exploit>`
+Exit context: `back`
 Show options: `show options`
+info about context: `info`
 
 <details>
 <summary>
