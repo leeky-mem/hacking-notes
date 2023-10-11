@@ -11,8 +11,23 @@ You can use many normal linux commands like in a linux terminal: `ls, cat, clear
 ## Contexts:
 `use <context, e.g. exploit>` - Entering a context  \
 `back` - Exit context:  \
-`show options` - Show options:  \
 `info` - Info about context:  \
+`show options` - List all available options(parameters)  \
+`set <parameter> <value>` - Sets `<parameter>` to `<value>` \
+`unset <parameter>` \
+`unset all` - Unsets all parameters in the current context \
+`setg` - Set parameter to default value across all contexts until you exit metasploit \
+`unsetg` \
+`exploit` - Run the exploit, use `-z` to run in background \
+`check` - Check if target is vulnerable without exploiting. Not supported by all modules. \
+
+## Sessions:
+Once a vulnerabilitay has successfully been exploited, a session is started.
+
+`background` - Sends the session to the background and presents the context prompt again \
+`CTRL + Z` - Same as Background \
+`sessions` - List sessions \
+`sessions -i <session-number>` - Interact with the session
 
 <details>
 <summary>
