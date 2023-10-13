@@ -68,7 +68,7 @@ Once a vulnerabilitay has successfully been exploited, a session is started.
 
 
 # Scanning
-There are many many scanners use `search scanner <what_you_need>` \
+There are many many scanners use `search scanner <what_you_need>`
 ## UDP
 **udp_sweep** \
 `run` 
