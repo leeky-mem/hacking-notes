@@ -56,7 +56,7 @@ You can use many normal linux commands like in a linux terminal: `ls, cat, clear
 `setg` - Set parameter to default value across all contexts until you exit metasploit \
 `unsetg` \
 `exploit` - Run the exploit, use `-z` to run in background \
-`check` - Check if target is vulnerable without exploiting. Not supported by all modules. \
+`check` - Check if target is vulnerable without exploiting. Not supported by all modules.
 
 ## Sessions:
 Once a vulnerabilitay has successfully been exploited, a session is started.
@@ -75,7 +75,7 @@ There are many many scanners use `search scanner <what_you_need>`
 
 ## SMB
 **smb_enumshares** \
-**smb_version** \
+**smb_version**
 
 # Database mode
 `systemctl start postgresql` \
