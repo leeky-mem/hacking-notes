@@ -81,7 +81,7 @@ There are many many scanners use `search scanner <what_you_need>` \
 `systemctl start postgresql` \
 `msfdb init` \
 `mfsconsole` \
-`db_status` \
+`db_status` 
 
 ## Workspaces
 `workspace -a` - add new workspace \
