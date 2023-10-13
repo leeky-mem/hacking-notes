@@ -85,7 +85,7 @@ There are many many scanners use `search scanner <what_you_need>`
 
 ## Workspaces
 `workspace -a` - add new workspace \
-`workspace -d` - delet \
+`-d` - delete \
 `-h` - lists options \
 `help` - lists the db backend commands \
 `db_nmap` - runs nmap but stores results in db \
