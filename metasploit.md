@@ -45,7 +45,7 @@ The modules are located at /opt/metasploit-framework/embedded/framework/modules
 
 You can use many normal linux commands like in a linux terminal: `ls, cat, clear, ...`
 
-## Contexts:
+# Contexts:
 `use <context, e.g. exploit>` - Entering a context  \
 `back` - Exit context:  \
 `info` - Info about context:  \
@@ -58,6 +58,9 @@ You can use many normal linux commands like in a linux terminal: `ls, cat, clear
 `exploit` - Run the exploit, use `-z` to run in background \
 `check` - Check if target is vulnerable without exploiting. Not supported by all modules.
 
+## Exploits
+`show payloads` - show available payloads for the exploit
+
 ## Sessions:
 Once a vulnerabilitay has successfully been exploited, a session is started.
 
@@ -66,14 +69,13 @@ Once a vulnerabilitay has successfully been exploited, a session is started.
 `sessions` - List sessions \
 `sessions -i <session-number>` - Interact with the session
 
-
-# Scanning
+## Scanning
 There are many many scanners use `search scanner <what_you_need>`
-## UDP
+### UDP
 **udp_sweep** \
 `run` 
 
-## SMB
+### SMB
 **smb_enumshares** \
 **smb_version**
 
@@ -89,3 +91,7 @@ There are many many scanners use `search scanner <what_you_need>`
 `-h` - lists options \
 `help` - lists the db backend commands \
 `db_nmap` - runs nmap but stores results in db \
+
+# Meterpeter
+`help` - show commands
+`hashdump` - prints ntlm password hashes for all users it can find
