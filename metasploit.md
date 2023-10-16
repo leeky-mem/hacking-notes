@@ -93,5 +93,20 @@ There are many many scanners use `search scanner <what_you_need>`
 `db_nmap` - runs nmap but stores results in db \
 
 # Meterpeter
-`help` - show commands
+`help` - show commands \
 `hashdump` - prints ntlm password hashes for all users it can find
+
+# Msfvenom
+msfvenom replaced msfpayload and msfencode and allows you to generate payloads. \
+
+`-e <encode format>` - encode a payload. There are a variety of encoders available \
+`-p <payload>` - select the payload \
+`-f <format>` - output format. E.g. elf, raw, base64, exe, php, py, asp, ... 
+
+## Handler
+A handler catches an incomming connection from a payload (like a reverse shell) \
+`use exploit/multi/handler` - can be used to catch incoming connections. Don't forget to set LHOST and LPORT. \
+
+
+
+
