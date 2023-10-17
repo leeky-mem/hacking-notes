@@ -1,6 +1,8 @@
 # Basics
 In general socat just connects two point. E.g. a listener and std-in.
 
+`-d -d` - increases verbosity for debugging if the shell is not working. Not used for general operation.
+
 # Shells
 ## Reverse shells
 **Listeners** \
