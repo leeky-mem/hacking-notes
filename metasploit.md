@@ -98,10 +98,18 @@ There are many many scanners use `search scanner <what_you_need>`
 
 # Msfvenom
 msfvenom replaced msfpayload and msfencode and allows you to generate payloads. \
-
+`msfvenom -p <payload> <options>` - general syntax \
+`msfvenom -p <OS/arch/shell/type> -f <format> -o <file_name> -e <encode_format> LHOST=<ip> LPORT=<port>` - example \
 `-e <encode format>` - encode a payload. There are a variety of encoders available \
 `-p <payload>` - select the payload \
-`-f <format>` - output format. E.g. elf, raw, base64, exe, php, py, asp, ... 
+`-f <format>` - output format. E.g. elf, raw, base64, exe, php, py, asp, ... \
+`-o` - output file \
+`LHOST=<ip>` - local ip \
+`LPORT=<port>` - local port
+
+## Staged vs Stageless payloads
+`shell_<type>` - stageless \
+`shell/<type>` - stages
 
 ## Handler
 A handler catches an incomming connection from a payload (like a reverse shell) \
