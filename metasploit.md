@@ -64,6 +64,7 @@ You can use many normal linux commands like in a linux terminal: `ls, cat, clear
 ## Sessions:
 Once a vulnerabilitay has successfully been exploited, a session is started.
 
+`exploit -j` - launches the module as job in the background \
 `background` - Sends the session to the background and presents the context prompt again \
 `CTRL + Z` - Same as Background \
 `sessions` - List sessions \
