@@ -1,3 +1,7 @@
+# General
+Mesploit runs in memory and therefore has no executable on the disk.
+Most Antivirus will still detect it, eventhough it is fairly stealthy.
+
 <details>
 <summary>
   
