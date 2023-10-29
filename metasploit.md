@@ -104,7 +104,9 @@ Most Antivirus will still detect it, eventhough it is fairly stealthy.
 
 ## Commands
 `help` - show commands \
-`hashdump` - prints ntlm password hashes for all users it can find
+`hashdump` - prints ntlm password hashes for all users it can find. Needs to be running in lsass.exe(local authority subsystem service). Migrate here first. \
+`search` - search for files on the target system. \
+`shell` - launch a regular command-line shell on that target system. CTRL+Z gets you back to meterpreter.
 
 ## Migrate
 Once runnining one can migrate meterpreter to another process.
