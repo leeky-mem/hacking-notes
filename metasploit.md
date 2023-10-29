@@ -1,6 +1,5 @@
 # General
-Mesploit runs in memory and therefore has no executable on the disk.
-Most Antivirus will still detect it, eventhough it is fairly stealthy.
+
 
 <details>
 <summary>
@@ -97,9 +96,22 @@ There are many many scanners use `search scanner <what_you_need>`
 `help` - lists the db backend commands \
 `db_nmap` - runs nmap but stores results in db \
 
-# Meterpeter
+# Meterpreter
+## Generl
+Meterpreter runs in memory and therefore has no executable on the disk.
+It is attached (running inside an other process).
+Most Antivirus will still detect it, eventhough it is fairly stealthy.
+
+## Commands
 `help` - show commands \
 `hashdump` - prints ntlm password hashes for all users it can find
+
+## Migrate
+Once runnining one can migrate meterpreter to another process.
+This can help escalate privileged and make the session more stable.
+`getuid` - list the user with which meterpreter is running
+`ps` - list all processes
+`migrate <pid>` - migrate meterpreter to the process with "pid".
 
 # Msfvenom
 msfvenom replaced msfpayload and msfencode and allows you to generate payloads. \
