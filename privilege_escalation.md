@@ -19,10 +19,14 @@
 `ifconfig` \
 `ip toute` \
 `netstat` - shows info about existing communications \
-    `-a` - shows all listening ports and established comms \
-    `-at` / `-au` - lists TCP reso. UDP \
-    `-l` - list ports in listening mode \
-    `-s` - shows usage statistics by protocol, can be combiled with spesific protocol filters \
-    `-p` - shows connections with service name and PID info, can also be combined with specific protocols \
-    `-i` - shows interface statistics
-    
+>`-a` - shows all listening ports and established comms \
+>`-at` / `-au` - lists TCP reso. UDP \
+>`-l` - list ports in listening mode \
+>`-s` - shows usage statistics by protocol, can be combiled with spesific protocol filters \
+>`-p` - shows connections with service name and PID info, can also be combined with specific protocols \
+>`-i` - shows interface statistics
+
+**find** \
+see [find](https://github.com/leeky-mem/linux-notes/blob/main/commands.md) for basics. For privilege escalation searching for specific permissions is important. \
+`-perm mode` - mode can be u,g,o(i.e user,goup,other). In this mode permission bits must match exactly. `-perm o=w` matches onls file which have mode 0020. \
+`-perm -mode` - matches all files wich have mode, but not exclusivly
