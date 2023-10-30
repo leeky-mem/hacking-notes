@@ -1,10 +1,28 @@
 # Enumeration
 ## Linux
-`whoami` - gives the current user
-`hostname` - hostname of target machine
-`uname -a` - prints system information like OS and kernel version, hostname, system time, arch ..
-`cat /proc/version` - proc file system (procfs) gives more info about the kernel and istalled tool like compilers
-`cat /etc/issue` - system file, contains info about the OS
-`ps` - show processes, `-a` or `-e` show all processes, `-axjf` shwo process tree
-`env` - show envirinment variables
-`sudo -l` - show what commands can be run as root with sudo
+**Commands:** \
+`whoami` - gives the current user \
+`hostname` - hostname of target machine \
+`uname -a` - prints system information like OS and kernel version, hostname, system time, arch ... \
+`ps` - show processes, `-a` or `-e` show all processes, `-axjf` shwo process tree \
+`env` - show envirinment variables \
+`sudo -l` - show what commands can be run as root with sudo \
+`id` -shows user privileges and groups 
+
+**Files** \
+`/proc/version` - proc file system (procfs) gives more info about the kernel and istalled tool like compilers \
+`/etc/issue` - system file, contains info about the OS \
+`/etc/passwd` - shows users and other info, in this context we are only interested in the users \
+`cat /etc/passwd | cut -d ":" -f 1` - cuts out only the users in passwd, can be used for brute force attacks
+
+**Network** \
+`ifconfig` \
+`ip toute` \
+`netstat` - shows info about existing communications \
+    `-a` - shows all listening ports and established comms \
+    `-at` / `-au` - lists TCP reso. UDP \
+    `-l` - list ports in listening mode \
+    `-s` - shows usage statistics by protocol, can be combiled with spesific protocol filters \
+    `-p` - shows connections with service name and PID info, can also be combined with specific protocols \
+    `-i` - shows interface statistics
+    
