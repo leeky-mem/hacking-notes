@@ -29,4 +29,6 @@
 **find** \
 see [find](https://github.com/leeky-mem/linux-notes/blob/main/commands.md) for basics. For privilege escalation searching for specific permissions is important. \
 `-perm mode` - mode can be u,g,o(i.e user,goup,other). In this mode permission bits must match exactly. `-perm o=w` matches onls file which have mode 0020. \
-`-perm -mode` - matches all files wich have mode, but not exclusivly
+`-perm -mode` - matches all files wich have mode, but not exclusivly \  
+`find / -perm -u=s -type f 2>/dev/null` - find files with SUID bit set. SUID bit allows to run the file with the privilege level of the owner. \
+
