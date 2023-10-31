@@ -17,7 +17,7 @@ Install with pacman or apt if on debian systems \
 Get wordlists on [SecLists](https://github.com/danielmiessler/SecLists/tree/master/Passwords) \
 `john <options> <path-to-hash-file.txt>` - basic syntax
 >`--format=<format>` - foramt of the hash e.g `raw-md5` \
->`--list=formats | gerp <format>` - lists foramts \
+>`--list=formats | gerp <format>` - lists formats \
 >`--wordlist=<path/to/wordlist>` - path to wordlist \
 >`--single` - uses single crack mode (uses word mangling on username) hash must be in form: `<username>:<hash>`
 
