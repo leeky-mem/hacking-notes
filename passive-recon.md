@@ -1,4 +1,4 @@
-# Passice reconnaissance
+# Passive reconnaissance
 
 ## WHOIS
 `whois` is a domain lookup tool.
