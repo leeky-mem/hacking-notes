@@ -61,9 +61,9 @@ Telnet is a programm which uses a protocol with the same name. Very old and most
 It can be used though to connect to tcp ports and extract information like: banner, server versions etc.
 
 ### Usage
-`telnet TARGET_IP PORT` \
+`telnet TARGET_IP PORT`
 
-when prompted use `GET` requests to extract information. Like `GET / HTTP/1.1`
+when prompted use `GET` requests to extract information. Like `GET /HTTP/1.1`
 
 ## Netcat
 nc supports both TCP and UDP and can act as a clients and server.
