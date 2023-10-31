@@ -1,6 +1,6 @@
 # Hydra
 `hydry -l username -P wordlist.txt TARGET_IP SERVICE` \
-More options:
+More options:\
 `-s PORT` if not default port for the service \
 `-t N` where `N` is the number of parallel connections \
 
