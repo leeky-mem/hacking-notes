@@ -34,7 +34,7 @@ dnsdumpster.com
 ### Usage
 Enter the domain to be inspected in the search field
 
-#Active recon
+# Active recon
 ## Browser (Dev-tools and extensions)
 The brower developer options reveal a ton of information about a target website.
 
