@@ -1,4 +1,15 @@
 # Passive recon
+## OSINT About products
+- FCC ID https://fccid.io/
+- Patents https://patents.google.com/
+- Datasheets of components
+- Social media, product forums, costumer reviews
+
+## OSINT about companies
+- Companie Homepage
+- Social media, LinkedIn of employees
+- Call them and ask.
+
 ## WHOIS
 `whois` is a domain lookup tool.
 It reveils usfull information about the domain and the domain registrar
@@ -21,18 +32,16 @@ Options (`-type=`):
 - TXT 	-> Text records
 
 ## dig
-dig is similar to nslookup. SOmetime displays more info
-
-### Usage
-`dig DOMAIN OPTIONS` example: `dig tryhackme MX` to get the mailsercers of the tryhackme domain.
-
-Options: same as nslookup
+dig is similar to nslookup. Sometime displays more info \
+`dig DOMAIN OPTIONS` example: `dig tryhackme MX` to get the mailsercers of the tryhackme domain. Options: same as nslookup
 
 ## DNSDumpster (Webtool)
 dnsdumpster.com
+shows IPs, services, versions of services and OS
 
-### Usage
-Enter the domain to be inspected in the search field
+## Shodan (Webtool)
+shodan.io
+Shodan shows used IPs, ports, products, operating systems found of the target domain.
 
 # Active recon
 ## Browser (Dev-tools and extensions)
