@@ -32,7 +32,7 @@ see [find](https://github.com/leeky-mem/linux-notes/blob/main/commands.md) for b
 `-perm -mode` - matches all files wich have mode, but not exclusivly. \  
 `find / -perm -u=s -type f 2>/dev/null` - find files with SUID bit set. SUID bit allows to run the file with the privilege level of the owner.
 
-# Automated
+## Automated Enumeration
 [LinPeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS) - scrip .sh \
 [LinEnum](https://github.com/rebootuser/LinEnum) - script .sh \
 [LES (Linux Exploit Suggester)](https://github.com/mzet-/linux-exploit-suggester) - script .sh \
