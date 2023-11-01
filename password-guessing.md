@@ -2,7 +2,7 @@
 `hydry -l username -P wordlist.txt TARGET_IP SERVICE` \
 More options:\
 `-s PORT` if not default port for the service \
-`-t N` where `N` is the number of parallel connections \
+`-t N` where `N` is the number of parallel connections
 
 # ncrack (Authentication)
 password guessing engine of nmap
