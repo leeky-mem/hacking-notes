@@ -24,7 +24,7 @@ The modules are located at /opt/metasploit-framework/embedded/framework/modules
 **Exploits**
 - Neatly organised by target
 
-**NOP's**
+**NOPs**
 - No operations, used as buffers to achive consisten payload size
 
 **Payloads**
