@@ -12,8 +12,8 @@ The modules are located at /opt/metasploit-framework/embedded/framework/modules
 
 **Auxiliary:**
 - Scanners
-- crawlers
-- fuzzers
+- Crawlers
+- Fuzzers
 
 **Encoders:** 
 - Encode exploit and payload to trick signature-based antivirus
@@ -28,8 +28,8 @@ The modules are located at /opt/metasploit-framework/embedded/framework/modules
 - No operations, used as buffers to achive consisten payload size
 
 **Payloads**
-- Adapters: Conver payloads into different formats. For example, a normal single payload can be wrapped inside a Powershell adapter, which will make a single powershell command that will execute the payload.
-- Singles: Self-contained Payloads(add user, lauch calc.exe).
+- Adapters: Convert payloads into different formats. For example, a normal single payload can be wrapped inside a Powershell adapter, which will make a single powershell command that will execute the payload.
+- Singles: Self-contained Payloads(add user, launch calc.exe).
 - Stagers: Form a connection to metasploit to download additional payloads(stages).
 - Stages: Are loaded by the stager. Allows to use larger payload size.
 
