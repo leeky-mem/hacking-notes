@@ -49,7 +49,7 @@ The modules are located at /opt/metasploit-framework/embedded/framework/modules
 You can use many normal linux commands like in a linux terminal: `ls, cat, clear, ...`
 
 # Contexts:
-`use <context, e.g. exploit>` - Entering a context  \
+`use <module, e.g. exploit>` - With the `use` command we enter a module and start a new context for the selected module \
 `back` - Exit context:  \
 `info` - Info about context:  \
 `show options` - List all available options(parameters)  \
